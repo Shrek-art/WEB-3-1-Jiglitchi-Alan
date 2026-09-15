@@ -1,22 +1,69 @@
 <!DOCTYPE html>
-<head>
-    <title>Laborator 1</title>
-</head>
-    <body>
-        <h1>Prima lectie!</h1>
-        <p>Invat la specialitatea dezvoltarea aplicatiei web anul 3 la Colegiul UTM</p>
-        <table border="1">
-            <tr>
-                <th>Nume</th>
-                <th>Prenume</th>
-                <th>Grupa</th>
-            </tr>
-            <tr>
-                <td>Jiglitchi</td>
-                <td>Alan</td>
-                <td>DAW-241</td>
-            </tr>
-        </table>
 
-        <button>Apasa-ma</button>
-    </body>
+<head>
+    <title>Laborator 1 - Profilul meu</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Salut!</h1>
+        <button id="themeButton">Dark Mode</button>
+    </header>
+
+    <main>
+
+        <section class="profile">
+            <img src="img/images.jpg" alt="Imagine de profil">
+
+            <div>
+                <h2>Prima lecție!</h2>
+
+                <p>
+                    Învăț la specialitatea Dezvoltarea Aplicațiilor Web,
+                    anul 3, la Colegiul UTM.
+                </p>
+
+                <p id="clock"></p>
+            </div>
+        </section>
+
+        <section class="info">
+            <h2>Informații despre mine</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Nume</th>
+                    <th>Prenume</th>
+                    <th>Grupa</th>
+                </tr>
+
+                <tr>
+                    <td>Jiglitchi</td>
+                    <td>Alan</td>
+                    <td>DAW-241</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="interaction">
+            <h2>Interacțiune</h2>
+
+            <p id="message">
+                Apasă butonul pentru a afișa un mesaj.
+            </p>
+
+            <button id="messageButton">Apasă-mă</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Laborator 1 © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+```
