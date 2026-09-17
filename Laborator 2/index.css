@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #555;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.tara {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+.steag {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.steag td {
+    width: 40px;
+    height: 25px;
+    padding: 0;
+}
+
+
+
+.moldova td:nth-child(1) {
+    background-color: #0046AE;
+}
+
+.moldova td:nth-child(2) {
+    background-color: #FFD200;
+}
+
+.moldova td:nth-child(3) {
+    background-color: #CC092F;
+}
+
+.norvegia td {
+    background-color: #BA0C2F;
+}
+
+.norvegia tr:nth-child(3) td,
+.norvegia tr:nth-child(5) td {
+    background-color: white;
+}
+
+.norvegia tr:nth-child(4) td {
+    background-color: #00205B;
+}
+
+.norvegia td:nth-child(3),
+.norvegia td:nth-child(5) {
+    background-color: #00205B;
+}
+
+.suedia td {
+    background-color: #006AA7;
+}
+
+.suedia tr:nth-child(4) td {
+    background-color: #FECC00;
+}
+
+.suedia td:nth-child(3) {
+    background-color: #FECC00;
+}
+
+.comparativ {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.comparativ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.comparativ th,
+.comparativ td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.comparativ th {
+    background-color: #333;
+    color: white;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
