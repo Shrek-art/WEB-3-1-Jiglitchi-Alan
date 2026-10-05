@@ -1,0 +1,7 @@
+#pupil {
+    white-space: pre-line;
+}
+
+#name, #age, #mark {
+    margin: 10px 0px 10px 0px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h3>Adauga un produs la alegere</h3>
+
+    <input type="text" id="product">
+
+    <button onclick="adaugaInceput()">Adauga la inceput</button>
+    <button onclick="adaugaSfarsit()">Adauga la sfarsit</button>
+
+    <button onclick="stergeInceput()">Sterge primul produs</button>
+    <button onclick="stergeSfarsit()">Sterge ultimul produs</button>
+
+
+    <h3>CATALOG ELECTRONIC</h3>
+
+    <p id="numarElevi"></p>
+
+    <div id="pupil"></div>
+
+
+    <h3>Adauga elev</h3>
+
+    <input type="text" id="name" placeholder="Nume">
+    <input type="number" id="age" placeholder="Varsta">
+    <input type="number" id="mark" placeholder="Nota">
+
+    <button onclick="adaugaElev()">Adauga elev</button>
+
+
+    <h3>Sterge elev</h3>
+
+    <input type="text" id="deleteName" placeholder="Numele elevului">
+
+    <button onclick="stergeElev()">Sterge elev</button>
+
+
+    <h3>Cauta elev</h3>
+
+    <input type="text" id="searchName" placeholder="Numele elevului">
+    <button onclick="cautaElev()">Cauta</button>
+    <p id="rezultat"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
