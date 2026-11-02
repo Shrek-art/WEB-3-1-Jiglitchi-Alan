@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Gestionarea listei de studenți</title>
+</head>
+<body>
+    <h1>Gestionarea listei de studenti</h1>
+
+<div class="panel">
+  <h2>Adaugă student</h2>
+  <form id="studentForm" novalidate>
+    <label class="field">Nume
+      <input type="text" id="name" placeholder="Ex: Ion Popescu">
+    </label>
+    <label class="field">Grupa
+      <input type="text" id="group" placeholder="Ex: TI-231">
+    </label>
+    <label class="field">Varsta
+      <input type="number" id="age" placeholder="14 - 100">
+    </label>
+    <label class="field">Specialitatea
+      <input type="text" id="specialty" placeholder="Ex: Informatica">
+    </label>
+    <button type="submit">Adaugă</button>
+  </form>
+  <div id="error"></div>
+</div>
+
+<div class="panel">
+  <h2>Setări Flexbox</h2>
+  <div class="group-label">justify-content</div>
+  <div class="btn-group" data-prop="justifyContent">
+    <button data-value="flex-start">flex-start</button>
+    <button data-value="center">center</button>
+    <button data-value="flex-end">flex-end</button>
+    <button data-value="space-between">space-between</button>
+    <button data-value="space-around">space-around</button>
+    <button data-value="space-evenly">space-evenly</button>
+  </div>
+  <div class="group-label">align-items</div>
+  <div class="btn-group" data-prop="alignItems">
+    <button data-value="stretch">stretch</button>
+    <button data-value="flex-start">flex-start</button>
+    <button data-value="center">center</button>
+    <button data-value="flex-end">flex-end</button>
+    <button data-value="baseline">baseline</button>
+  </div>
+  <div class="group-label">flex-wrap</div>
+  <div class="btn-group" data-prop="flexWrap">
+    <button data-value="wrap">wrap</button>
+    <button data-value="nowrap">nowrap</button>
+  </div>
+</div>
+
+<div class="panel">
+  <div id="counter"></div>
+  <div id="container"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

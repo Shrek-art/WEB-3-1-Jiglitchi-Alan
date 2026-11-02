@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+  color: #222;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 0 auto 16px;
+  max-width: 1100px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 160px;
+  font-size: 14px;
+}
+
+.field input {
+  margin-top: 4px;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: #3b6fd4;
+  color: #fff;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #2c58ad;
+}
+
+button.active {
+  background: #1c8a4b;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.group-label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+#error {
+  color: #c0392b;
+  margin-top: 10px;
+  min-height: 18px;
+  font-size: 14px;
+}
+
+#counter {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 14px;
+  min-height: 500px;
+  background: #e8ecf4;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.card {
+  background: #fff;
+  width: 200px;
+  border-radius: 10px;
+  padding: 14px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.card .id {
+  color: #888;
+  font-size: 12px;
+}
+
+.card button {
+  margin-top: 10px;
+  background: #c0392b;
+}
+
+.card button:hover {
+  background: #962d22;
+}
+
+.empty {
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  color: #666;
+  font-size: 18px;
+}
